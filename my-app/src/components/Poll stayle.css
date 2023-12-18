@@ -1,0 +1,162 @@
+/* Poll.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+.poll-container {
+  border-radius: 0px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.profile-details {
+  display: flex;
+  flex-direction: column;
+}
+.profile-details strong {
+  font-size: 1.2em; /* Adjust the size as needed */
+  margin-bottom: 4px; /* Space between title and timestamp */
+}
+.profile-details span {
+  font-size: 0.9em; /* Adjust the size as needed */
+  color: #6c757d; /* Grey color for the timestamp */
+}
+.profile-info h3 {
+  line-height: 1;
+  margin: 0px;
+  color: #000000;
+}
+
+.profile-info p {
+  line-height: 1;
+  margin: 0;
+  color: #292929;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically in the container */
+}
+
+.poll-question {
+  color: #615e5e;
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.poll-option {
+  display: block;
+  color: #0056b3;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #ffffff;
+  border: 1px solid #493cff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.poll-option:hover {
+  background-color: #e2dada;
+}
+
+.color {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 0.85em;
+}
+.like-icon {
+  font-size: 1.5em; /* Adjust size as needed */
+  margin-right: 5px;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-interactions {
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 10px;
+}
+.action-button:hover {
+  text-decoration: underline;
+}
+.interaction-bar {
+  border-top: 0px solid #777373;
+  padding-top: 10px;
+}
+.likes {
+  color: #555;
+  margin-bottom: 10px;
+}
+.action-button {
+  background: none;
+  border: none;
+  color: #0056b3;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.social-button {
+  background: transparent;
+  color: #000;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.social-button:hover {
+  background-color: #aca8a8;
+}
+
+/* If you use icons, you might want to add some styles for them as well */
+.icon {
+  margin-right: 5px;
+}
+.like-icon {
+  font-size: 1em; /* Smaller emoji size */
+  margin-right: 5px; /* Space between the icon and text */
+}
+.comments span {
+  font-size: 0.9em; /* Example size, adjust as needed */
+  color: #555; /* Example color, adjust as needed */
+  margin-right: 10px; /* Space to the right of the comments */
+  display: inline-block; /* This will allow you to set a margin if needed */
+  vertical-align: middle; /* Aligns the text vertically in the middle if it's next to other inline or inline-block elements */
+}
+.comments {
+  font-size: 0.85em; /* Smaller text for the comment count */
+  color: #757575; /* A mid-tone grey color for the text */
+  margin-left: 70px; /* Adds space to the left of the comments, adjust as needed */
+  display: inline-flex; /* Uses inline-flex to keep it in line with other text but also allows centering of child elements */
+  align-items: center; /* Centers the children vertically */
+  gap: 5px; /* Adds space between child elements */
+}
+.comments .comment-icon {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+.separator {
+  border: none;
+  height: 1px;
+  background-color: #e0e0e0; /* A light grey color for the line */
+  margin: 20px 0; /* Space above and below the line */
+}
